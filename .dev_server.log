@@ -224,3 +224,172 @@ Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
  GET /_next/static/chunks/app-pages-internals.js 404 in 104ms
  GET /_next/static/chunks/app/page.js 404 in 105ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET / 200 in 124ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /_next/static/chunks/main-app.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /_next/static/chunks/app-pages-internals.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /_next/static/chunks/app/page.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /_next/static/chunks/main-app.js?v=1765948309171 404 in 156ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 150ms
+ GET /_next/static/chunks/app/page.js 404 in 147ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /product/air-jordan-1-retro-high-og. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /product/air-jordan-1-retro-high-og 404 in 42ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /_next/static/chunks/main-app.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /_next/static/chunks/app-pages-internals.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /_next/static/chunks/main-app.js?v=1765948319162 404 in 125ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 119ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET / 200 in 84ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /_next/static/chunks/main-app.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /_next/static/chunks/app-pages-internals.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /_next/static/chunks/app/page.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /_next/static/chunks/main-app.js?v=1765948325361 404 in 175ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 174ms
+ GET /_next/static/chunks/app/page.js 404 in 181ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /product/air-jordan-1-retro-high-og. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /product/air-jordan-1-retro-high-og 404 in 33ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /_next/static/chunks/main-app.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /_next/static/chunks/app-pages-internals.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /_next/static/chunks/main-app.js?v=1765948330136 404 in 107ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 107ms
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat '/home/nathan/Documents/SHOP JR/.next/server/vendor-chunks/clsx.js'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/clsx' in /home/nathan/Documents/SHOP JR/.next/server for build dependencies doesn't lead to expected result '/home/nathan/Documents/SHOP JR/.next/server/vendor-chunks/clsx.js', but to 'Error: Can't resolve './vendor-chunks/clsx' in '/home/nathan/Documents/SHOP JR/.next/server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/clsx (expected /home/nathan/Documents/SHOP JR/.next/server/vendor-chunks/clsx.js)
+<w>  at file dependencies /home/nathan/Documents/SHOP JR/.next/server/webpack-runtime.js
+<w>  at file /home/nathan/Documents/SHOP JR/.next/server/webpack-runtime.js
+<w>  at file dependencies /home/nathan/Documents/SHOP JR/.next/server/app/_not-found/page.js
+<w>  at file /home/nathan/Documents/SHOP JR/.next/server/app/_not-found/page.js
+<w>  at file dependencies /home/nathan/Documents/SHOP JR/node_modules/next/dist/server/require.js
+<w>  at file /home/nathan/Documents/SHOP JR/node_modules/next/dist/server/require.js
+<w>  at file dependencies /home/nathan/Documents/SHOP JR/node_modules/next/dist/server/load-components.js
+<w>  at file /home/nathan/Documents/SHOP JR/node_modules/next/dist/server/load-components.js
+<w>  at file dependencies /home/nathan/Documents/SHOP JR/node_modules/next/dist/build/utils.js
+<w>  at file /home/nathan/Documents/SHOP JR/node_modules/next/dist/build/utils.js
+<w>  at file dependencies /home/nathan/Documents/SHOP JR/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+<w>  at file /home/nathan/Documents/SHOP JR/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+<w>  at resolve commonjs /home/nathan/Documents/SHOP JR/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+ ⚠ Unsupported metadata viewport is configured in metadata export in /product/air-max-90. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /product/air-max-90 404 in 46ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /_next/static/chunks/main-app.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /_next/static/chunks/app-pages-internals.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /_next/static/chunks/main-app.js?v=1765948341895 404 in 87ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 87ms
+ ○ Compiling /cart ...
+ ✓ Compiled /cart in 707ms (920 modules)
+ ⚠ Unsupported metadata viewport is configured in metadata export in /cart. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /cart 200 in 882ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /_next/static/chunks/main-app.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /_next/static/chunks/app-pages-internals.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /_next/static/chunks/main-app.js?v=1765948349898 404 in 148ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 141ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /shop. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /shop 404 in 35ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /_next/static/chunks/main-app.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /_next/static/chunks/app-pages-internals.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /_next/static/chunks/main-app.js?v=1765948353082 404 in 97ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 91ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET / 200 in 116ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /_next/static/chunks/main-app.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /_next/static/chunks/app-pages-internals.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /_next/static/chunks/app/page.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /_next/static/chunks/main-app.js?v=1765948355389 404 in 151ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 149ms
+ GET /_next/static/chunks/app/page.js 404 in 149ms
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat '/home/nathan/Documents/SHOP JR/.next/server/vendor-chunks/clsx.js'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/clsx' in /home/nathan/Documents/SHOP JR/.next/server for build dependencies doesn't lead to expected result '/home/nathan/Documents/SHOP JR/.next/server/vendor-chunks/clsx.js', but to 'Error: Can't resolve './vendor-chunks/clsx' in '/home/nathan/Documents/SHOP JR/.next/server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/clsx (expected /home/nathan/Documents/SHOP JR/.next/server/vendor-chunks/clsx.js)
+<w>  at file dependencies /home/nathan/Documents/SHOP JR/.next/server/webpack-runtime.js
+<w>  at file /home/nathan/Documents/SHOP JR/.next/server/webpack-runtime.js
+<w>  at file dependencies /home/nathan/Documents/SHOP JR/.next/server/app/page.js
+<w>  at file /home/nathan/Documents/SHOP JR/.next/server/app/page.js
+<w>  at file dependencies /home/nathan/Documents/SHOP JR/node_modules/next/dist/server/require.js
+<w>  at file /home/nathan/Documents/SHOP JR/node_modules/next/dist/server/require.js
+<w>  at file dependencies /home/nathan/Documents/SHOP JR/node_modules/next/dist/server/load-components.js
+<w>  at file /home/nathan/Documents/SHOP JR/node_modules/next/dist/server/load-components.js
+<w>  at file dependencies /home/nathan/Documents/SHOP JR/node_modules/next/dist/build/utils.js
+<w>  at file /home/nathan/Documents/SHOP JR/node_modules/next/dist/build/utils.js
+<w>  at file dependencies /home/nathan/Documents/SHOP JR/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+<w>  at file /home/nathan/Documents/SHOP JR/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+<w>  at resolve commonjs /home/nathan/Documents/SHOP JR/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/tailwind-merge' in /home/nathan/Documents/SHOP JR/.next/server for build dependencies doesn't lead to expected result '/home/nathan/Documents/SHOP JR/.next/server/vendor-chunks/tailwind-merge.js', but to 'Error: Can't resolve './vendor-chunks/tailwind-merge' in '/home/nathan/Documents/SHOP JR/.next/server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/tailwind-merge (expected /home/nathan/Documents/SHOP JR/.next/server/vendor-chunks/tailwind-merge.js)
+<w>  at file dependencies /home/nathan/Documents/SHOP JR/.next/server/webpack-runtime.js
+<w>  at file /home/nathan/Documents/SHOP JR/.next/server/webpack-runtime.js
+<w>  at file dependencies /home/nathan/Documents/SHOP JR/.next/server/app/page.js
+<w>  at file /home/nathan/Documents/SHOP JR/.next/server/app/page.js
+<w>  at file dependencies /home/nathan/Documents/SHOP JR/node_modules/next/dist/server/require.js
+<w>  at file /home/nathan/Documents/SHOP JR/node_modules/next/dist/server/require.js
+<w>  at file dependencies /home/nathan/Documents/SHOP JR/node_modules/next/dist/server/load-components.js
+<w>  at file /home/nathan/Documents/SHOP JR/node_modules/next/dist/server/load-components.js
+<w>  at file dependencies /home/nathan/Documents/SHOP JR/node_modules/next/dist/build/utils.js
+<w>  at file /home/nathan/Documents/SHOP JR/node_modules/next/dist/build/utils.js
+<w>  at file dependencies /home/nathan/Documents/SHOP JR/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+<w>  at file /home/nathan/Documents/SHOP JR/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+<w>  at resolve commonjs /home/nathan/Documents/SHOP JR/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/goober' in /home/nathan/Documents/SHOP JR/.next/server for build dependencies doesn't lead to expected result '/home/nathan/Documents/SHOP JR/.next/server/vendor-chunks/goober.js', but to 'Error: Can't resolve './vendor-chunks/goober' in '/home/nathan/Documents/SHOP JR/.next/server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/goober (expected /home/nathan/Documents/SHOP JR/.next/server/vendor-chunks/goober.js)
+<w>  at file dependencies /home/nathan/Documents/SHOP JR/.next/server/webpack-runtime.js
+<w>  at file /home/nathan/Documents/SHOP JR/.next/server/webpack-runtime.js
+<w>  at file dependencies /home/nathan/Documents/SHOP JR/.next/server/app/page.js
+<w>  at file /home/nathan/Documents/SHOP JR/.next/server/app/page.js
+<w>  at file dependencies /home/nathan/Documents/SHOP JR/node_modules/next/dist/server/require.js
+<w>  at file /home/nathan/Documents/SHOP JR/node_modules/next/dist/server/require.js
+<w>  at file dependencies /home/nathan/Documents/SHOP JR/node_modules/next/dist/server/load-components.js
+<w>  at file /home/nathan/Documents/SHOP JR/node_modules/next/dist/server/load-components.js
+<w>  at file dependencies /home/nathan/Documents/SHOP JR/node_modules/next/dist/build/utils.js
+<w>  at file /home/nathan/Documents/SHOP JR/node_modules/next/dist/build/utils.js
+<w>  at file dependencies /home/nathan/Documents/SHOP JR/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+<w>  at file /home/nathan/Documents/SHOP JR/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+<w>  at resolve commonjs /home/nathan/Documents/SHOP JR/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+ ✓ Compiled in 755ms (533 modules)
+ ✓ Compiled in 1257ms (908 modules)
+ ⨯ ./components/product/ProductCard.tsx
+Error: 
+  [31mx[0m Unexpected token `Link`. Expected jsx identifier
+    ,-[[36;1;4m/home/nathan/Documents/SHOP JR/components/product/ProductCard.tsx[0m:56:1]
+ [2m56[0m |     : 0
+ [2m57[0m | 
+ [2m58[0m |   return (
+ [2m59[0m |     <Link href={`/product/${product.slug}`} className={`group relative block ${className || ''}`}>
+    : [31;1m     ^^^^[0m
+ [2m60[0m |       <div 
+ [2m61[0m |         className="card-hover overflow-hidden"
+ [2m62[0m |         onMouseEnter={() => setIsHovered(true)}
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/product/ProductCard.tsx
+./components/product/ProductGrid.tsx
+./app/page.tsx
+ ✓ Compiled in 1654ms (922 modules)

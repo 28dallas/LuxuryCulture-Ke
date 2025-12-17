@@ -56,13 +56,12 @@ export function ProductCard({ product, className }: ProductCardProps) {
     : 0
 
   return (
-    <div 
-      className={`group relative ${className || ''}`}
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
-    >
-      <Link href={`/product/${product.slug}`} className="block">
-        <div className="card-hover overflow-hidden">
+    <Link href={`/product/${product.slug}`} className={`group relative block ${className || ''}`}>
+      <div 
+        className="card-hover overflow-hidden"
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
+      >
           {/* Product Image */}
           <div className="relative aspect-square overflow-hidden bg-secondary-100">
             <img
@@ -180,7 +179,6 @@ export function ProductCard({ product, className }: ProductCardProps) {
             </div>
           </div>
         </div>
-      </Link>
-    </div>
+    </Link>
   )
 }
