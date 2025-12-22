@@ -20,7 +20,7 @@ export function HeroSection() {
         <div className="max-w-2xl text-primary">
           {/* Logo Badge */}
           <div className="inline-flex items-center bg-accent text-primary px-4 py-2 rounded-lg font-bold text-lg mb-6">
-            WE BRING LUXURY TO YOU DOOR STEP
+            WE BRING LUXURY TO YOU DOOR STEPS
           </div>
 
           {/* Main Headline */}
