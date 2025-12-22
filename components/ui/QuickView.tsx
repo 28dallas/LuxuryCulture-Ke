@@ -57,7 +57,7 @@ export function QuickView({ product, isOpen, onClose }: QuickViewProps) {
               <div>
                 <p className="text-sm text-secondary-600 uppercase">{product.brand}</p>
                 <h3 className="text-lg font-bold">{product.name}</h3>
-                <p className="text-xl font-bold text-accent">KSh {product.price.toLocaleString()}</p>
+                <p className="text-xl font-bold text-accent">${product.price.toLocaleString()}</p>
               </div>
 
               <div>

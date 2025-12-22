@@ -32,9 +32,9 @@ export function CatalogCard({ product }: CatalogCardProps) {
       <div className="px-3 py-3">
         <h3 className="text-sm font-semibold text-gray-900 line-clamp-2 mb-1">{product.name}</h3>
         <div className="flex items-center justify-between">
-          <div className="text-sm font-bold text-gray-900">KSh {price}</div>
+          <div className="text-sm font-bold text-gray-900">${price}</div>
           {product.originalPrice && product.originalPrice > (product.price as number) && (
-            <div className="text-xs text-gray-500 line-through">KSh {(product.originalPrice as number).toLocaleString()}</div>
+            <div className="text-xs text-gray-500 line-through">${(product.originalPrice as number).toLocaleString()}</div>
           )}
         </div>
       </div>

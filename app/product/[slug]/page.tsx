@@ -145,11 +145,11 @@ export default function ProductDetailPage() {
               <h1 className="heading-lg mb-4">{product.name}</h1>
               <div className="flex items-center space-x-4 mb-4">
                 <span className="text-2xl font-bold">
-                  KSh {product.price.toLocaleString()}
+                  ${product.price.toLocaleString()}
                 </span>
                 {product.originalPrice && (
                   <span className="text-lg text-secondary-500 line-through">
-                    KSh {product.originalPrice.toLocaleString()}
+                    ${product.originalPrice.toLocaleString()}
                   </span>
                 )}
                 {product.isOnSale && (

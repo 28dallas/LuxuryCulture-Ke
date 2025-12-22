@@ -169,11 +169,11 @@ export function ProductCard({ product, className }: ProductCardProps) {
             {/* Price */}
             <div className="flex items-center gap-2">
               <span className="font-bold text-secondary">
-                KSh {product.price.toLocaleString()}
+                ${product.price.toLocaleString()}
               </span>
               {product.originalPrice && product.originalPrice > product.price && (
                 <span className="price-original">
-                  KSh {product.originalPrice.toLocaleString()}
+                  ${product.originalPrice.toLocaleString()}
                 </span>
               )}
             </div>

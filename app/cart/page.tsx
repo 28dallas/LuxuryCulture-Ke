@@ -117,10 +117,10 @@ export default function CartPage() {
                           </div>
                           <div className="text-right">
                             <p className="font-bold text-secondary">
-                              KSh {(item.price * item.quantity).toLocaleString()}
+                              ${(item.price * item.quantity).toLocaleString()}
                             </p>
                             <p className="text-sm text-secondary-600">
-                              KSh {item.price.toLocaleString()} each
+                              ${item.price.toLocaleString()} each
                             </p>
                           </div>
                         </div>
@@ -139,7 +139,7 @@ export default function CartPage() {
                 <div className="space-y-4 mb-6">
                   <div className="flex justify-between">
                     <span className="text-secondary-600">Subtotal</span>
-                    <span className="font-medium">KSh {subtotal.toLocaleString()}</span>
+                    <span className="font-medium">${subtotal.toLocaleString()}</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-secondary-600">Shipping</span>
@@ -147,19 +147,19 @@ export default function CartPage() {
                       {shipping === 0 ? (
                         <span className="text-accent">FREE</span>
                       ) : (
-                        `KSh ${shipping.toLocaleString()}`
+                        `$${shipping.toLocaleString()}`
                       )}
                     </span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-secondary-600">Tax (VAT)</span>
-                    <span className="font-medium">KSh {tax.toLocaleString()}</span>
+                    <span className="font-medium">${tax.toLocaleString()}</span>
                   </div>
                   <div className="border-t border-secondary pt-4">
                     <div className="flex justify-between">
                       <span className="text-lg font-bold text-secondary">Total</span>
                       <span className="text-lg font-bold text-secondary">
-                        KSh {total.toLocaleString()}
+                        ${total.toLocaleString()}
                       </span>
                     </div>
                   </div>
@@ -169,7 +169,7 @@ export default function CartPage() {
                 {subtotal < 5000 && (
                   <div className="bg-accent text-primary p-3 rounded-lg mb-6">
                     <p className="text-sm font-medium">
-                      Add KSh {(5000 - subtotal).toLocaleString()} more for FREE shipping!
+                      Add ${(5000 - subtotal).toLocaleString()} more for FREE shipping!
                     </p>
                   </div>
                 )}

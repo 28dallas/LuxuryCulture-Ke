@@ -121,7 +121,7 @@ export function MpesaPayment({ total, orderInfo, onSuccess }: MpesaPaymentProps)
           <h3 className="text-lg font-bold mb-2">STK Push Sent!</h3>
           <p className="text-sm">
             Please check your M-Pesa and enter your PIN to complete the payment of{' '}
-            <strong>KSh {total.toLocaleString()}</strong>
+            <strong>${total.toLocaleString()}</strong>
           </p>
         </div>
         
@@ -193,7 +193,7 @@ export function MpesaPayment({ total, orderInfo, onSuccess }: MpesaPaymentProps)
         <h4 className="font-medium mb-2">Payment Summary</h4>
         <div className="flex justify-between text-sm">
           <span>Total Amount:</span>
-          <span className="font-bold">KSh {total.toLocaleString()}</span>
+          <span className="font-bold">${total.toLocaleString()}</span>
         </div>
       </div>
 
@@ -212,7 +212,7 @@ export function MpesaPayment({ total, orderInfo, onSuccess }: MpesaPaymentProps)
         ) : (
           <>
             <Smartphone className="mr-2 h-4 w-4" />
-            Pay KSh {total.toLocaleString()} with M-Pesa
+            Pay ${total.toLocaleString()} with M-Pesa
           </>
         )}
       </Button>

@@ -72,7 +72,7 @@ export default function CheckoutPage() {
                           <p className="text-xs text-secondary-600">Size: {item.size} • Qty: {item.quantity}</p>
                         </div>
                       </div>
-                      <p className="font-medium">KSh {(item.price * item.quantity).toLocaleString()}</p>
+                      <p className="font-medium">${(item.price * item.quantity).toLocaleString()}</p>
                     </div>
                   ))}
                 </div>
@@ -80,19 +80,19 @@ export default function CheckoutPage() {
                   <div className="space-y-2">
                     <div className="flex justify-between">
                       <span>Subtotal:</span>
-                      <span>KSh {subtotal.toLocaleString()}</span>
+                      <span>${subtotal.toLocaleString()}</span>
                     </div>
                     <div className="flex justify-between">
                       <span>Shipping:</span>
-                      <span>{shipping === 0 ? 'FREE' : `KSh ${shipping.toLocaleString()}`}</span>
+                      <span>{shipping === 0 ? 'FREE' : `$${shipping.toLocaleString()}`}</span>
                     </div>
                     <div className="flex justify-between">
                       <span>Tax (VAT):</span>
-                      <span>KSh {tax.toLocaleString()}</span>
+                      <span>${tax.toLocaleString()}</span>
                     </div>
                     <div className="flex justify-between font-bold text-lg border-t border-secondary-200 pt-2">
                       <span>Total:</span>
-                      <span>KSh {total.toLocaleString()}</span>
+                      <span>${total.toLocaleString()}</span>
                     </div>
                   </div>
                 </div>
@@ -312,20 +312,20 @@ export default function CheckoutPage() {
                 <div className="space-y-3">
                   <div className="flex justify-between">
                     <span>Subtotal</span>
-                    <span>KSh {subtotal.toLocaleString()}</span>
+                    <span>${subtotal.toLocaleString()}</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Shipping</span>
-                    <span>{shipping === 0 ? 'FREE' : `KSh ${shipping.toLocaleString()}`}</span>
+                    <span>{shipping === 0 ? 'FREE' : `$${shipping.toLocaleString()}`}</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Tax (VAT)</span>
-                    <span>KSh {tax.toLocaleString()}</span>
+                    <span>${tax.toLocaleString()}</span>
                   </div>
                   <div className="border-t border-secondary pt-3">
                     <div className="flex justify-between text-lg font-bold">
                       <span>Total</span>
-                      <span>KSh {total.toLocaleString()}</span>
+                      <span>${total.toLocaleString()}</span>
                     </div>
                   </div>
                 </div>

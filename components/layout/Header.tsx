@@ -33,7 +33,7 @@ export function Header() {
     <header className="sticky top-0 z-50 bg-white shadow-sm">
       {/* Top Bar */}
       <div className="bg-accent text-white text-center py-2 text-sm font-medium tracking-wide">
-        FREE SHIPPING ON ORDERS OVER KSh 5,000 | 30-DAY RETURNS
+        ALL PRICE WILL HAVE 10% DISCOUNT ON THE WEBSITE AS END OF THE YEAR PROMO
       </div>
 
       {/* Main Header */}

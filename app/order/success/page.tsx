@@ -48,7 +48,7 @@ export default function OrderSuccessPage() {
               
               <div className="flex justify-between items-center">
                 <span className="text-secondary-600">Total Amount:</span>
-                <span className="font-bold text-accent">KSh {orderDetails.total.toLocaleString()}</span>
+                <span className="font-bold text-accent">${orderDetails.total.toLocaleString()}</span>
               </div>
               
               <div className="flex justify-between items-center">
