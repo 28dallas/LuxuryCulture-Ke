@@ -7,6 +7,16 @@ module.exports = {
   ],
   theme: {
     extend: {
+      spacing: {
+        'grid-1': '8px',
+        'grid-2': '16px', 
+        'grid-3': '24px',
+        'grid-4': '32px',
+        'grid-5': '40px',
+        'grid-6': '48px',
+        'grid-7': '56px',
+        'grid-8': '64px',
+      },
       colors: {
         // Custom color palette for Shop JR
         primary: {
@@ -64,16 +74,16 @@ module.exports = {
         display: ['Montserrat', 'system-ui', 'sans-serif'],
       },
       fontSize: {
-        'xs': ['0.75rem', { lineHeight: '1rem' }],
-        'sm': ['0.875rem', { lineHeight: '1.25rem' }],
-        'base': ['1rem', { lineHeight: '1.5rem' }],
-        'lg': ['1.125rem', { lineHeight: '1.75rem' }],
-        'xl': ['1.25rem', { lineHeight: '1.75rem' }],
-        '2xl': ['1.5rem', { lineHeight: '2rem' }],
-        '3xl': ['1.875rem', { lineHeight: '2.25rem' }],
-        '4xl': ['2.25rem', { lineHeight: '2.5rem' }],
-        '5xl': ['3rem', { lineHeight: '1' }],
-        '6xl': ['3.75rem', { lineHeight: '1' }],
+        'xs': ['0.75rem', { lineHeight: '1.5' }],
+        'sm': ['0.875rem', { lineHeight: '1.5' }],
+        'base': ['1rem', { lineHeight: '1.5' }],
+        'lg': ['1.125rem', { lineHeight: '1.5' }],
+        'xl': ['1.25rem', { lineHeight: '1.2' }],
+        '2xl': ['1.5rem', { lineHeight: '1.2' }],
+        '3xl': ['1.875rem', { lineHeight: '1.2' }],
+        '4xl': ['2.25rem', { lineHeight: '1.2' }],
+        '5xl': ['3rem', { lineHeight: '1.2' }],
+        '6xl': ['3.75rem', { lineHeight: '1.2' }],
       },
       animation: {
         'fade-in': 'fadeIn 0.5s ease-in-out',
@@ -95,9 +105,11 @@ module.exports = {
         'black': '0 4px 14px 0 rgba(0, 0, 0, 0.39)',
       },
       borderRadius: {
-        'lg': '8px',
-        'xl': '12px',
-        '2xl': '16px',
+        'sm': '4px',
+        'md': '8px',
+        'lg': '12px',
+        'xl': '16px',
+        '2xl': '20px',
       },
     },
   },

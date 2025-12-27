@@ -14,7 +14,12 @@ export const metadata: Metadata = {
   description: 'Your ultimate destination for premium sneakers and streetwear. Shop the latest drops, bestsellers, and exclusive collections.',
   keywords: 'sneakers, streetwear, shoes, apparel, fashion, Kicks Kenya, premium footwear',
   authors: [{ name: 'Luxury Culture Team' }],
-  viewport: 'width=device-width, initial-scale=1',
+  viewport: {
+    width: 'device-width',
+    initialScale: 1,
+    maximumScale: 5,
+    userScalable: true,
+  },
   robots: 'index, follow',
   openGraph: {
     title: 'Luxury Culture - Premium Sneakers & Streetwear',
@@ -37,7 +42,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${inter.variable} ${montserrat.variable}`}>
-      <body className="font-sans antialiased">
+      <body className="font-sans antialiased overflow-x-hidden">
         <Providers>
           <div className="flex flex-col min-h-screen">
             <Header />

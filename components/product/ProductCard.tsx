@@ -100,11 +100,12 @@ export function ProductCard({ product, className }: ProductCardProps) {
             {/* Like Button */}
             <button
               onClick={handleLike}
-              className={`absolute top-2 right-2 p-2 rounded-full transition-all duration-200 ${
+              className={`absolute touch-target-sm rounded-full transition-all duration-200 ${
                 isLiked 
                   ? 'bg-accent text-primary' 
                   : 'bg-primary-100 text-secondary hover:bg-accent hover:text-primary'
-              }`}
+              } active-scale`}
+              style={{ top: '8px', right: '8px' }}
               aria-label="Add to wishlist"
             >
               <Heart size={16} fill={isLiked ? 'currentColor' : 'none'} />
@@ -112,12 +113,13 @@ export function ProductCard({ product, className }: ProductCardProps) {
 
             {/* Quick Add to Cart */}
             {product.inStock && (
-              <div className={`absolute bottom-2 left-2 right-2 transition-all duration-300 ${
+              <div className={`absolute left-2 right-2 transition-all duration-300 ${
                 isHovered ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-2'
-              }`}>
+              }`}
+              style={{ bottom: '8px' }}>
                 <Button
                   onClick={handleAddToCart}
-                  className="w-full text-sm"
+                  className="w-full text-sm active-scale"
                   size="sm"
                 >
                   <ShoppingCart size={16} className="mr-2" />
@@ -128,8 +130,8 @@ export function ProductCard({ product, className }: ProductCardProps) {
           </div>
 
           {/* Product Info */}
-          <div className="p-4">
-            <div className="mb-2">
+          <div className="p-grid-2">
+            <div className="mb-grid-1">
               <p className="text-xs text-secondary-600 uppercase tracking-wide font-medium">
                 {product.brand}
               </p>
@@ -139,7 +141,7 @@ export function ProductCard({ product, className }: ProductCardProps) {
             </div>
 
             {/* Size Selection */}
-            <div className="mb-3">
+            <div className="mb-grid-2">
               <div className="flex flex-wrap gap-1">
                 {product.sizes.slice(0, 4).map((size) => (
                   <button
@@ -149,7 +151,7 @@ export function ProductCard({ product, className }: ProductCardProps) {
                       e.stopPropagation()
                       setSelectedSize(size)
                     }}
-                    className={`w-8 h-8 text-xs border rounded transition-colors ${
+                    className={`touch-target-sm text-xs border rounded transition-colors active-scale ${
                       selectedSize === size
                         ? 'border-accent bg-accent text-primary'
                         : 'border-secondary-300 text-secondary hover:border-accent'
@@ -159,7 +161,7 @@ export function ProductCard({ product, className }: ProductCardProps) {
                   </button>
                 ))}
                 {product.sizes.length > 4 && (
-                  <span className="text-xs text-secondary-600 self-center">
+                  <span className="text-xs text-secondary-600 self-center ml-1">
                     +{product.sizes.length - 4}
                   </span>
                 )}

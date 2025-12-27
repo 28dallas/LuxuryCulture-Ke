@@ -30,19 +30,19 @@ export function Header() {
   }
 
   return (
-    <header className="sticky top-0 z-50 bg-white shadow-sm">
+    <header className="sticky top-0 z-50 bg-white shadow-sm border-b border-gray-100">
       {/* Top Bar */}
-      <div className="bg-accent text-white text-center py-2 text-sm font-medium tracking-wide">
+      <div className="bg-accent text-white text-center py-grid-1 text-sm font-medium tracking-wide">
         ALL PRICE WILL HAVE 10% DISCOUNT ON THE WEBSITE AS END OF THE YEAR PROMO
       </div>
 
       {/* Main Header */}
-      <div className="bg-white border-b border-gray-100">
+      <div className="bg-white">
         <div className="container-custom">
           <div className="flex items-center justify-between h-20">
             {/* Mobile Menu Button */}
             <button
-              className="lg:hidden p-2 text-black hover:text-accent transition-colors rounded-md"
+              className="lg:hidden touch-target text-black hover:text-accent transition-colors rounded-md active-scale"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               aria-label="Toggle menu"
             >
@@ -174,7 +174,8 @@ export function Header() {
                   placeholder="Search products..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-80 px-4 py-2.5 pl-10 border border-gray-200 rounded-lg bg-gray-50 text-black placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-accent focus:border-accent focus:bg-white transition-all duration-200"
+                  className="w-80 px-grid-2 py-grid-2 pl-10 border border-gray-200 rounded-md bg-gray-50 text-black placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-accent focus:border-accent focus:bg-white transition-all duration-200"
+                  style={{ fontSize: '16px' }}
                 />
                 <Search 
                   className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" 
@@ -188,7 +189,7 @@ export function Header() {
               {/* User Account */}
               <Link
                 href="/account"
-                className="p-2.5 text-black hover:text-accent hover:bg-gray-50 rounded-lg transition-all duration-200"
+                className="touch-target text-black hover:text-accent hover:bg-gray-50 rounded-lg transition-all duration-200 active-scale"
                 aria-label="Account"
               >
                 <User size={22} />
@@ -197,7 +198,7 @@ export function Header() {
               {/* Shopping Cart */}
               <Link
                 href="/cart"
-                className="relative p-2.5 text-black hover:text-accent hover:bg-gray-50 rounded-lg transition-all duration-200"
+                className="relative touch-target text-black hover:text-accent hover:bg-gray-50 rounded-lg transition-all duration-200 active-scale"
                 aria-label="Shopping cart"
               >
                 <ShoppingCart size={22} />
@@ -211,14 +212,14 @@ export function Header() {
           </div>
 
           {/* Mobile Search */}
-          <div className="md:hidden pb-4">
+          <div className="md:hidden pb-grid-2">
             <form onSubmit={handleSearch} className="relative">
               <input
                 type="text"
                 placeholder="Search products..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full px-4 py-2.5 pl-10 border border-gray-200 rounded-lg bg-gray-50 text-black placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-accent focus:border-accent focus:bg-white transition-all duration-200"
+                className="input-primary pl-10"
               />
               <Search 
                 className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" 
