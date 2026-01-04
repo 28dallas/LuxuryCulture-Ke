@@ -31,8 +31,8 @@ const mockProducts = [
   },
   {
     id: '2',
-    name: 'Yeezy Boost 350 V2',
-    slug: 'yeezy-boost-350-v2',
+    name: 'Nike SB Dunk Low Pro',
+    slug: 'Nike SB Dunk Low Pro',
     description: 'Kanye West\'s revolutionary sneaker with BOOST technology and Primeknit upper.',
     price: 12000,
     brand: 'Adidas',

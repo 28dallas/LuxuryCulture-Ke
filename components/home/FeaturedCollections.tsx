@@ -14,7 +14,7 @@ const collections = [
   },
   {
     id: '2',
-    title: 'YEEZY',
+    title: 'Nike SB Dunk Low Pro',
     subtitle: 'THE FUTURE IS NOW',
     description: 'Kanye West\'s revolutionary designs that changed the sneaker game forever.',
     image: 'https://images.unsplash.com/photo-1605348532760-6753d2c43329?w=800&h=600&fit=crop',
