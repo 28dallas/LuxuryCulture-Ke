@@ -10,7 +10,7 @@ export function EndOfYearPromo() {
   useEffect(() => {
     const timer = setInterval(() => {
       const now = new Date()
-      const target = new Date('2025-01-05T23:59:59')
+      const target = new Date('2025-12-31T23:59:59')
       const diff = target.getTime() - now.getTime()
       
       if (diff > 0) {
@@ -20,6 +20,8 @@ export function EndOfYearPromo() {
         const seconds = Math.floor((diff % (1000 * 60)) / 1000)
         
         setTimeLeft({ days, hours, minutes, seconds })
+      } else {
+        setTimeLeft({ days: 0, hours: 0, minutes: 0, seconds: 0 })
       }
     }, 1000)
 

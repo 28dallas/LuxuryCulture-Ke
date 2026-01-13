@@ -196,7 +196,7 @@ const mockSaleProducts = [
   },
   {
     id: '10',
-    name: 'Air Force–style sneaker',
+    name: 'Air Force-style sneaker',
     slug: 'stan-smith',
     description: 'Adidas\' most iconic tennis shoe with clean design and premium materials.',
     price: 65,
